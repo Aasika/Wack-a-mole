@@ -1,0 +1,62 @@
+
+
+.grid{
+    width: 70vh;
+    height:40vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    cursor: url('./images/minecraft-shovel.png'),auto;
+    
+    
+}
+
+body{
+    background-color: lightcyan;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+.square{
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+}
+
+.mole{
+    background-image: url(./images/mole.jpg);
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+}
+.contain{
+    display: flex;
+    justify-content: center;
+}
+
+.top
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.but{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    /* padding: 10px 15px; */
+    background-color: steelblue;
+    border-radius: 20px;
+    width: 80px;
+    height: 40px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
