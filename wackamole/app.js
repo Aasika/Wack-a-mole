@@ -8,7 +8,7 @@ const score=document.querySelector('#score');
 
 let result=0;
 let hitpos;
-let currenttime=10;
+let currenttime=25;
 let timer = null;
 
 const hitsound=new Audio('./sounds/hit.mp3');
@@ -47,7 +47,7 @@ squares.forEach(square=>{
 function movemole(){
     
     //mole moves every 500ms
-    timer=setInterval(randomSquare,800);
+    timer=setInterval(randomSquare,600);
 }
 
 movemole()
